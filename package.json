@@ -1,0 +1,20 @@
+{
+  "name": "todo_node_app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "hbs": "^4.0.4",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

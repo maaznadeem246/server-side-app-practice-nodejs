@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Node HTML file onto the browser</title>
+    <link rel='stylesheet' href="./css/styles.css">
+    <script src='/js/ap.js'></script>
+</head>
+
+<body>
+    {{>header}}
+    <h1>{{title}}</h1>
+    <input type='text' id='txtword' >
+    <button onclick='fetchDefinition()'>
+        Search
+    </button>
+    <h3 id='h3word'></h3>
+    <h3 id='h3definition'></h3>
+
+    <h3>Created by : {{createdBy}}</h3>
+
+    {{>footer}}
+</body>
+
+</html>
